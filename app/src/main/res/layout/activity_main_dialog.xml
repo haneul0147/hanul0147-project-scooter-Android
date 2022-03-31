@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="180dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_background_round"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/select_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="20dp"
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textColor="#1CA3DF"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="이용방법을 선택해주세요"
+        android:textColor="#1469AE"
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="27dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/firstbtn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/font"
+            android:text="선불 이용"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/lastbtn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="후불 이용"
+            android:textSize="25dp"
+            android:fontFamily="@font/font"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+

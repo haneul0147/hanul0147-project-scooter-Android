@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.162" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/drawable/button_background.xml" value="0.1" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/drawable/button_background2.xml" value="0.1" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/drawable/button_background3.xml" value="0.185" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/drawable/button_background4.xml" value="0.318" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/drawable/button_basic_round.xml" value="0.175" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/drawable/dialog_background_round.xml" value="0.1" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/drawable/edge.xml" value="0.16" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.162" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/drawable/icon_background.xml" value="0.1655" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/font/font.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activitiy_informatioon_dialog.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_final_dialog.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_finish.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_finish_dialog.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_fragment.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_informatioon_dialog.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_last.xml" value="0.33125" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_login.xml" value="0.33125" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_login_dialog.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_logo.xml" value="0.3261538461538461" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_main.xml" value="0.33125" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_main_dialog.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_nophoto_dialog.xml" value="0.6050775740479548" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_request.xml" value="0.33125" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_result.xml" value="0.33" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_result_dialog.xml" value="0.3651041666666667" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_result_dialog2.xml" value="0.5" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_select.xml" value="0.33" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_select2.xml" value="0.33" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_select_image.xml" value="0.3385416666666667" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_show_info.xml" value="0.33125" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_sign_up.xml" value="0.3585434173669468" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_user.xml" value="0.25" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_using.xml" value="0.33125" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/activity_using2.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/fragment__a.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/fragment__b.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/fragment_a.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/fragment_b.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/layout/fragment_select.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/5-11/Desktop/GoogleMapTest/app/src/main/res/mipmap-anydpi-v26/icon.xml" value="0.206" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

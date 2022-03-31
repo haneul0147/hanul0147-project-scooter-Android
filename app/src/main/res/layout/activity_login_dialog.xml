@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="270dp"
+    android:layout_height="170dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_background_round"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:padding="20dp"
+            android:text="로그인 후\n이용가능합니다."
+            android:textColor="#1469AE"
+            android:gravity="center"
+            android:fontFamily="@font/font"
+            android:textStyle="bold"
+            android:textSize="27dp"/>
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/font"
+            android:text="확인"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            />
+
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="후불 이용 안내"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font"
+                android:textSize="45dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_gravity="left"
+                android:layout_height="0.5dp"
+                android:background="#606060"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="현재 시간 "
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:fontFamily="@font/font"
+                android:textColor="@color/black"
+                android:textSize="40dp"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@+id/txt"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font"
+                android:layout_gravity="right"
+                android:gravity="center"
+                android:text="00:00 분"
+                android:textColor="#1D4D75"
+                android:textSize="50dp"
+                android:textStyle="bold"
+             />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:text="이용시간(분)(200원)+대여비용(1500원)입니다."/>
+            <View
+                android:layout_width="300dp"
+                android:layout_gravity="left"
+                android:layout_height="0.5dp"
+                android:background="#606060"
+                android:layout_marginTop="20dp"/>
+            <CheckBox
+                android:id="@+id/check1"
+                android:layout_marginTop="20dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="안전수칙을 확인해주세요!"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font"
+                />
+            <Button
+                android:id="@+id/safecheckbtn"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:background="@drawable/button_background2"
+                android:text="안전수칙 보러가기"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:layout_gravity="right"
+                />
+            <View
+                android:layout_width="300dp"
+                android:layout_gravity="left"
+                android:layout_height="0.5dp"
+                android:background="#606060"
+                android:layout_marginTop="20dp"/>
+            <CheckBox
+                android:id="@+id/inforcheck"
+                android:layout_marginTop="30dp"
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:text="안내 내용 확인해주세요!"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:layout_gravity="right"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font"
+                />
+            <Button
+                android:id="@+id/inforbtn"
+                android:layout_width="250dp"
+                android:layout_height="35dp"
+                android:background="@drawable/button_background2"
+                android:text="안내 내용 보러가기"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                android:layout_gravity="right"
+                />
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_marginTop="45dp"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_background2"
+                android:text="이용 할래요"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                />
+        </LinearLayout>
+</LinearLayout>

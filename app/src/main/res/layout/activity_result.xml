@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이용 내역"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_gravity="left"
+        android:layout_height="0.5dp"
+        android:background="#606060"
+        android:layout_marginTop="20dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="안전운행 하셨나요?"
+        android:textColor="#1469AE"
+        android:textSize="40dp"
+        android:fontFamily="@font/font"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이용 시간(분) : "
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이용 시간 나올 곳"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이용 금액        : "
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이용 가격 나올 곳"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:text="이용시간(분)(200원)+대여비용(1500원)입니다."/>
+
+            <View
+                android:layout_width="300dp"
+                android:layout_gravity="left"
+                android:layout_height="0.5dp"
+                android:background="#606060"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="할인 이벤트"
+                android:textColor="@color/black"
+                android:fontFamily="@font/font"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/infortxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:fontFamily="@font/font"
+                android:textColor="#1469AE"
+                android:text="주차공간에 문제가 없으면\n 할인해드려요!.      " />
+            <View
+                android:layout_width="300dp"
+                android:layout_gravity="left"
+                android:layout_height="0.5dp"
+                android:background="#606060"
+                android:layout_marginTop="30dp"/>
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="이미지를 클릭하여 사진 등록해주세요!!" />
+
+        <ImageView
+            android:id="@+id/imgPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/photocamera" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_background2"
+            android:text="사진 등록하기"
+            android:fontFamily="@font/font"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/awstxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/font"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/resultbtn"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_background2"
+            android:fontFamily="@font/font"
+            android:text="계산하기"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

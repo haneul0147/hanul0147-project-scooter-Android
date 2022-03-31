@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog_background_round"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="55dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이용해 주셔서 감사합니다"
+        android:textColor="#1469AE"
+        android:fontFamily="@font/font"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+
+            />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/daytxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/font"
+        android:textColor="#1469AE"
+        android:text="이용 시간" />
+    <TextView
+        android:id="@+id/timetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/font"
+        android:textColor="#1469AE"
+        android:text="이용 시간" />
+    <TextView
+        android:id="@+id/paytxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="32dp"
+        android:fontFamily="@font/font"
+        android:textColor="#1469AE"
+        android:text="이용 금액" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:text="확인"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background2"
+        />
+
+
+
+
+
+</LinearLayout>
+
+
