@@ -20,6 +20,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.location.Location;
 
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.Window;
@@ -82,6 +83,18 @@ public class MainActivity extends AppCompatActivity  implements GoogleMap.OnMyLo
         SupportMapFragment mapFragment =
                 (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+        TextView maintxt = findViewById(R.id.maintxt);
+        maintxt.setSingleLine(true);    // 한줄로 표시하기
+        maintxt.setEllipsize(TextUtils.TruncateAt.MARQUEE); // 흐르게 만들기
+        maintxt.setSelected(true);
+
+        maintxt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                imforDialog();
+            }
+        });
 
 
         Button button = findViewById(R.id.btn);
@@ -278,7 +291,7 @@ public class MainActivity extends AppCompatActivity  implements GoogleMap.OnMyLo
                 String marker_id=marker.getId();
 
                 if(marker_id != null){
-                    marker.setIcon(BitmapDescriptorFactory.fromBitmap(smallMarker2));
+                    //marker.setIcon(BitmapDescriptorFactory.fromBitmap(smallMarker2));
                     getTitle = marker.getTitle();
                     Toast.makeText(MainActivity.this, getTitle, Toast.LENGTH_SHORT).show();
 
@@ -358,6 +371,24 @@ public class MainActivity extends AppCompatActivity  implements GoogleMap.OnMyLo
             }
         });
 
+
+    }
+    private void imforDialog(){
+        dilaog01 = new Dialog(MainActivity.this);
+        dilaog01.requestWindowFeature(Window.FEATURE_NO_TITLE); // 타이틀 제거
+        dilaog01.setContentView(R.layout.activity_fristinformation_dialog);
+        dilaog01.show();
+        dilaog01.getWindow().setBackgroundDrawable(getDrawable(R.drawable.dialog_background_round));
+
+        Button startbtn = dilaog01.findViewById(R.id.startbtn);
+
+        startbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                dilaog01.dismiss();
+            }
+        });
 
     }
     // 우리가 만든 함수. 화면에 네트워크 처리중이라고 표시할 것.

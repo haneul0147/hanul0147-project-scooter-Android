@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="380dp"
+    android:layout_height="700dp"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/logo" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text=" 하늘쿠터 "
+                android:textColor="#1469AE"
+                android:textSize="60dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/font"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="left"
+                android:text="안녕하세요! "
+                android:textColor="#1469AE"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/font"
+                android:gravity="left"
+                android:text="저는 전동킥보드 서비스 앱인\n하늘쿠터예요\n저를 이용할때는 중요한 주의사항이 있어요!\n\n1. 안전모 착용하기!\n2. 아무리 바뻐도 신호는 꼭 지키기\n3. 전동킥보드 음주운전 금지!\n4. 주행 중에 휴대전화 사용은 절대 금지!."
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font"
+                android:gravity="left"
+                android:text="5. 2인 이상 탑승 금지\n6. 도로주행 방향 통일하기\n7. 음주음주 절대 금지\n8. 횡단보도,인도에서는 탑승금지\n9. 내리막에서는 서행하기"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="300dp"
+                android:layout_height="0.5dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:background="#606060" />
+
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="left"
+                android:text="나만의 장점!"
+                android:textColor="#1469AE"
+                android:textSize="32dp"
+                android:fontFamily="@font/font"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/font"
+                android:gravity="left"
+                android:text="전동킥보드를 재밌게 이용 후"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font"
+                android:gravity="left"
+                android:text="주차 사진을 촬영해보세요!\n인공지능이 주차 사진을 분석해요!\n주차공간에 있으면 안되는 물체를 찾아낼 수 있어요!\n금지된 물체는 추가금액을 부여할 수 있어요!\n주차를 잘하는 경우 할인도 해드려요!"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/result"
+                android:layout_gravity="center"
+                />
+            <View
+                android:layout_width="300dp"
+                android:layout_height="0.5dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:background="#606060" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font"
+                android:gravity="left"
+                android:text="매너 있는 전동킥보드 이용을 통해 할인을 받아보세요!!"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/startbtn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/button_background2"
+                android:fontFamily="@font/font"
+                android:text="확인했어요!"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
